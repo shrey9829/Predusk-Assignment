@@ -387,34 +387,3 @@ book_review_service/
 ├── venv/                  # Virtual environment
 └── README.md             # This file
 ```
-
-### Adding New Features
-
-1. **Add Model Changes**: Update SQLAlchemy models in `app.py`
-2. **Create Migration**: `flask db migrate -m "Feature description"`
-3. **Add API Endpoints**: Implement new routes with proper error handling
-4. **Add Tests**: Write comprehensive tests in `test_app.py`
-5. **Update Documentation**: Add Swagger documentation
-6. **Test**: Run full test suite
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature-name`
-3. Make changes and add tests
-4. Run tests: `pytest test_app.py -v`
-5. Commit changes: `git commit -am 'Add feature'`
-6. Push to branch: `git push origin feature-name`
-7. Submit a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Support
-
-For issues and questions:
-1. Check the troubleshooting section above
-2. Review the test suite for usage examples
-3. Check the Swagger documentation at `/swagger/`
-4. Open an issue on the project repository
