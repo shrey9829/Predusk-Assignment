@@ -1,4 +1,3 @@
-# populate_demo_data.py
 """
 Demo data population script for Book Review Service
 Run this script to populate the database with sample data for testing

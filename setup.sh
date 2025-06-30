@@ -1,7 +1,3 @@
-#!/bin/bash
-
-# setup.sh - Setup script for Book Review Service
-
 echo "Setting up Book Review Service..."
 
 # Create virtual environment
