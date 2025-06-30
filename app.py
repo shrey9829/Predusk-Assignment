@@ -143,7 +143,7 @@ def get_from_cache(key: str):
         app.logger.warning(f"Cache read error: {e}")
     return None
 
-def set_cache(key: str, data, expire_time: int = 30):
+def set_cache(key: str, data, expire_time: int = 10):
     try:
         redis_client.setex(key, expire_time, json.dumps(data, default=str))
     except Exception as e:
